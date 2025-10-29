@@ -1,0 +1,32 @@
+<!-- Experiment 8b: Product of Digits of a Number -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <form onsubmit="return ProductofDigits()">
+
+        <label>Enter a Number</label>
+        <input type="number" id="num">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+<script>
+    function ProductofDigits() {
+        let num = parseInt(document.getElementById("num").value);
+        let product = 1;
+
+        while (num > 0) {
+            let digit = num % 10;
+            product *= digit;
+            num = Math.floor(num / 10);
+        }
+
+        alert("Product of Digits is : " + product);
+    }
+</script>
+
+</html>
