@@ -1,0 +1,87 @@
+Exp 8
+AIM: To study and implement JavaScript
+a)	Problem Statement: Write a JavaScript program to display sum of 3 and 5 multiples under 1000(use function).
+b)	Problem Statement: Write a JavaScript program to  display product of digits of a number(use function).
+c)	Write a JavaScript Program to validate Form
+
+Exp7
+Aim: To study and implement HTM and CSS
+a) problem statement:
+Write a program to display your resume (use basic HTML tags)
+
+(b)problem statement: 
+Write a program to display your class time table (use table in html)
+(c) Problem statement:
+Design a static homepage of a website (use HTML and CSS)
+
+Exp6
+Aim : To study and implement inheritance in Java
+a) To calculate volume of sphere using multi level inheritance
+Experiment 6 (b)  Write a program to calculate square ,square root and cube of a number ,illustrating the use of abstract  class and abstract method
+6(c) Create a Java program to demonstrate the use of an interface for custom weather
+information retrieval
+ The WeatherService interface declares a method getWeatherInfo for retrieving
+weather information.
+ In the main method of the Main class, an anonymous class is created that
+implements the WeatherService interface.
+ Inside the anonymous class, the getWeatherInfo method implements the logic to
+retrieve weather information. In this example, a mock response is returned
+indicating sunny weather with a temperature of 25°C for the specified location.
+ A sample location is provided.
+ The getWeatherInfo method of the WeatherService interface is called to retrieve
+weather information for the specified location.
+ The retrieved weather information is printed to the console.
+
+
+Exp5
+AIM: To study and implement
+arrays in Java
+a) Write a program to
+implement stack operations
+b) Write a program to find
+transpose of matrix
+
+
+Exp 4
+Aim : - To study and implement Constructor and Constructor Overloading.
+Problem Statement : -
+Design a menu-driven program to represent a bank account that includes the following methods and
+members:
+A. Data members: Owner name, Account number, Balance amount in the account, Type of account
+(savings/current).
+B. Constructors: To assign initial values to instance variables.
+C. Methods:
+1. To deposit an amount.
+2. To withdraw an amount after checking the balance.
+3. To display the owner's name and balance
+
+Exp 3
+Aim: - To study and implement method overloading in Java
+Problem Statement: - Write a program to find the Area of a Circle, a Rectangle, and a Triangle using
+method overloading.
+
+Exp 2
+Aim: - To study and implement object, classes and methods in Java.
+Problem Statement: -
+a) Write a program to print the area of a rectangle by creating a class named ‘Rectangle’ having
+three methods. First method named as 'setDim' takes length and breadth of rectangle as
+parameters, second method named as 'calculateArea' returns the area of the rectangle. Third
+method named ‘calculatePerimeter’, returns the perimeter of the rectangle. ( Length and
+breadth of rectangle are entered through keyboard. area and perimeter values to be displayed
+in main function use BufferedReader method).
+b) Write a program to print Employee details by creating a class named ‘Employee’ having
+methods as ‘getInfo’ which takes EmpId,EmpName and EmpSalary as parameters. Second
+method as CalculateGrossSalary to calculate gross salary and third method to display employee
+details (Gross Salary= Salary + DA +HRA ,where DA =10% of salary and HRA= 7% of salary, use
+BufferedReader method).
+
+
+Experiment No. 01
+Aim: - To study and implement basic programming constructs such as branching and looping in Java
+a)Write a program to accept the three sides of triangle and display whether a valid triangle can be
+formed or not ,if formed, whether it is an equilateral, isosceles or a scalene triangle and calculate its
+area.
+b) Write a program using for loop to print Fibonacci series of n terms where n is input by user (0 1 1 2 3
+5 8 13 24 ....)
+c) Write a program using while loop that prompts the user to input an integer and then outputs the
+number with the digits reversed. For example, if the input is 12345, the output should be 54321

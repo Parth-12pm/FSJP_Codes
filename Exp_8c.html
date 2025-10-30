@@ -31,7 +31,7 @@
             return false;
         }
 
-        let pattern = /^\S+@\S+\.\S+$/;
+        let pattern = /^\S+@\S+\.\S{2-3}+$/;
         if (email == "" || !pattern.test(email)) {
             alert("Email is Required or Invalid Email");
             return false;
